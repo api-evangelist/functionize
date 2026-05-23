@@ -1,0 +1,96 @@
+aid: functionize
+url: https://raw.githubusercontent.com/api-evangelist/functionize/refs/heads/main/apis.yml
+name: Functionize
+kind: company
+description: >-
+  Functionize is an AI-native intelligent test automation platform that uses
+  generative AI and computer vision to author, run, and self-heal web and mobile
+  UI tests. The Functionize Architect agent generates tests from natural-language
+  prompts, while Smart Test Agents reduce maintenance by adapting to UI changes
+  at runtime. Tests execute against the Functionize Test Cloud and integrate
+  with CI/CD pipelines via the Functionize CLI and a partner-gated REST API.
+  Programmatic surfaces are not publicly documented; access is gated behind a
+  Functionize tenant and a customer support portal at support.functionize.com.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Testing
+  - Test Automation
+  - AI Testing
+  - Generative AI
+  - QA
+  - End-to-End Testing
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: functionize:rest
+    name: Functionize REST API
+    description: >-
+      Partner-gated REST API used to trigger test runs, manage suites, and
+      retrieve execution results from the Functionize Test Cloud. Endpoint
+      surface, base URL, and authentication mechanism are documented inside the
+      Functionize tenant and customer support portal and are not published on
+      the public web.
+    humanURL: https://support.functionize.com/hc/en-us
+    baseURL: https://app.functionize.com
+    tags:
+      - REST
+      - Test Runs
+      - Partner-Gated
+    properties:
+      - type: Documentation
+        url: https://support.functionize.com/hc/en-us
+  - aid: functionize:cli
+    name: Functionize CLI
+    description: >-
+      Command-line interface used to trigger Functionize tests from CI/CD
+      pipelines and to manage local test artefacts. Distributed to customers via
+      the Functionize tenant; authentication is via a tenant-issued API token.
+    humanURL: https://support.functionize.com/hc/en-us
+    baseURL: https://support.functionize.com/hc/en-us
+    tags:
+      - CLI
+      - CI/CD
+    properties:
+      - type: Documentation
+        url: https://support.functionize.com/hc/en-us
+  - aid: functionize:architect
+    name: Functionize Architect (AI Test Authoring)
+    description: >-
+      Generative-AI agent that authors new Functionize tests from natural
+      language prompts and existing application context. Surfaced inside the
+      Functionize web console; programmatic invocation is partner-gated.
+    humanURL: https://www.functionize.com/ai-powered-testing
+    baseURL: https://www.functionize.com/
+    tags:
+      - Generative AI
+      - Test Authoring
+      - AI Agents
+    properties:
+      - type: Documentation
+        url: https://www.functionize.com/ai-powered-testing
+common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/functionize
+  - type: Website
+    url: https://www.functionize.com/
+  - type: Support
+    url: https://support.functionize.com/hc/en-us
+  - type: Plans
+    url: plans/functionize-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/functionize-rate-limits.yml
+  - type: FinOps
+    url: finops/functionize-finops.yml
+integrations:
+  - name: Jenkins
+  - name: GitHub Actions
+  - name: GitLab CI
+  - name: CircleCI
+  - name: Azure DevOps
+  - name: Jira
+  - name: Slack
+  - name: TestRail
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
