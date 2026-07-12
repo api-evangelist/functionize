@@ -70,6 +70,8 @@ apis:
       - type: Documentation
         url: https://www.functionize.com/ai-powered-testing
 common:
+  - type: DomainSecurity
+    url: security/functionize-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/functionize
   - type: Website
@@ -82,6 +84,8 @@ common:
     url: rate-limits/functionize-rate-limits.yml
   - type: FinOps
     url: finops/functionize-finops.yml
+  - type: Blog
+    url: https://www.functionize.com/blog
 integrations:
   - name: Jenkins
   - name: GitHub Actions
