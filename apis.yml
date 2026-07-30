@@ -11,7 +11,19 @@ description: >-
   with CI/CD pipelines via the Functionize CLI and a partner-gated REST API.
   Programmatic surfaces are not publicly documented; access is gated behind a
   Functionize tenant and a customer support portal at support.functionize.com.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/functionize.png
 tags:
   - Testing
   - Test Automation
