@@ -48,6 +48,10 @@ apis:
     tags:
       - REST
       - Test Runs
+      - Partner Gated
+    tags_raw:
+      - REST
+      - Test Runs
       - Partner-Gated
     properties:
       - type: Documentation
