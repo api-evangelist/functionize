@@ -11,6 +11,17 @@ description: >-
   with CI/CD pipelines via the Functionize CLI and a partner-gated REST API.
   Programmatic surfaces are not publicly documented; access is gated behind a
   Functionize tenant and a customer support portal at support.functionize.com.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
