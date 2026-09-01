@@ -59,7 +59,7 @@ apis:
     tags:
       - REST
       - Test Runs
-      - Partner-Gated
+      - Partner Gated
     tags_raw:
       - REST
       - Test Runs
