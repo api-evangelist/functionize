@@ -88,7 +88,6 @@ apis:
       language prompts and existing application context. Surfaced inside the
       Functionize web console; programmatic invocation is partner-gated.
     humanURL: https://www.functionize.com/ai-powered-testing
-    baseURL: https://www.functionize.com/
     tags:
       - Generative AI
       - Test Authoring
